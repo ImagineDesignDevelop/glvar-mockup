@@ -1,0 +1,23 @@
+
+/* =======================
+Navbar
+========================*/
+.navbar {
+  font-family:"Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
+  margin-bottom:0px;
+
+  .navbar-brand > img {
+	  border:4px solid #022789;
+	  height: 100px;
+	}
+
+	&.navbar-default {
+	  background-color:#022789;
+	  border-color:#022789;
+	  border-radius:0;
+	}
+
+}
+
+
+

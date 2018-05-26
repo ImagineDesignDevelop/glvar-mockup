@@ -1,0 +1,24 @@
+#page-template-section{
+  background: linear-gradient(0deg, white, #e6e4e0 83%);
+
+  #page-template-inner{
+    background: white;
+    position: relative;
+    margin: 0 auto;
+    padding: 80px 80px 200px;
+    margin-top: -49px;
+
+    p{
+      /* font-family: 'Quicksand', sans-serif; */
+      font-size: 1.6rem;
+      line-height: 2.6rem;
+      color: #888888;
+    }
+
+    .heading{
+      color: #525252;
+      font-weight: bold;
+    }
+  }
+
+}

@@ -1,0 +1,408 @@
+/*
+  GLVAR Sass Styles
+  Author: Carlos Baston
+  Version 1.0
+*/
+/* line 1, ../scss/base/_base.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 7, ../scss/base/_base.scss */
+body {
+  font-size: 16px;
+  background-color: #e6e4e0;
+}
+
+/* line 12, ../scss/base/_base.scss */
+textarea {
+  border-radius: 0;
+}
+
+/* line 13, ../scss/base/_base.scss */
+input[type="text"],
+input[type="email"] {
+  border-radius: 0;
+}
+
+/* line 18, ../scss/base/_base.scss */
+h1, h2, h3, h4, h5 {
+  font-family: 'Quicksand', sans-serif;
+  letter-spacing: 5px;
+  font-weight: bold;
+}
+
+/* =======================
+Navbar
+========================*/
+/* line 5, ../scss/base/_bootstrap-overrides.scss */
+.navbar {
+  font-family: "Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
+  margin-bottom: 0px;
+}
+/* line 9, ../scss/base/_bootstrap-overrides.scss */
+.navbar .navbar-brand > img {
+  border: 4px solid #022789;
+  height: 100px;
+}
+/* line 14, ../scss/base/_bootstrap-overrides.scss */
+.navbar.navbar-default {
+  background-color: #022789;
+  border-color: #022789;
+  border-radius: 0;
+}
+
+/* line 1, ../scss/base/_global.scss */
+.section-title {
+  font-family: 'Quicksand', sans-serif;
+  letter-spacing: 5px;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+/* line 1, ../scss/base/_footer.scss */
+footer {
+  background-color: #4b5265;
+  width: 100%;
+  bottom: 0;
+  font-weight: lighter;
+  color: white;
+}
+/* line 8, ../scss/base/_footer.scss */
+footer #footer-inner {
+  margin: 100px 0;
+}
+/* line 12, ../scss/base/_footer.scss */
+footer ul {
+  padding-left: 5px;
+  list-style: none;
+}
+/* line 17, ../scss/base/_footer.scss */
+footer p {
+  text-align: justify;
+  font-size: 12px;
+}
+/* line 22, ../scss/base/_footer.scss */
+footer iframe {
+  width: 100%;
+  position: relative;
+  height: 170px;
+}
+/* line 28, ../scss/base/_footer.scss */
+footer .footerHeader {
+  width: 100%;
+  padding: 1em;
+  background-color: #12265d59;
+  text-align: center;
+  color: white;
+}
+/* line 36, ../scss/base/_footer.scss */
+footer .sm {
+  list-style: none;
+  overflow: auto;
+}
+/* line 40, ../scss/base/_footer.scss */
+footer .sm li {
+  display: inline;
+  padding: 5px;
+  float: left;
+}
+/* line 46, ../scss/base/_footer.scss */
+footer .sm a img {
+  width: 32px;
+}
+
+/* =======================
+Hero Section
+========================*/
+/* line 4, ../scss/sections/_hero-section.scss */
+#hero-section {
+  background: url(../../assets/img/Entrance-sm.jpg) center center no-repeat;
+  background-size: cover;
+  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+/* line 13, ../scss/sections/_hero-section.scss */
+#hero-section .jumbotron {
+  background: rgba(255, 255, 255, 0.7);
+  margin: 100px 0;
+  border-radius: 0;
+}
+/* line 18, ../scss/sections/_hero-section.scss */
+#hero-section .jumbotron .btn-default {
+  color: #ffffff;
+  background-color: #022789;
+  border-color: #517df1;
+}
+/* line 23, ../scss/sections/_hero-section.scss */
+#hero-section .jumbotron .btn-default:hover {
+  background-color: #3a4d7f;
+  border-color: #74898a;
+}
+/* line 30, ../scss/sections/_hero-section.scss */
+#hero-section .jumbotron h1 {
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+/* line 37, ../scss/sections/_hero-section.scss */
+#hero-section .jumbotron p {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2.2em;
+}
+
+/* line 4, ../scss/sections/_links-section.scss */
+#links-section #links-inner {
+  margin: 100px 0;
+}
+/* line 8, ../scss/sections/_links-section.scss */
+#links-section .buttons-card-box {
+  margin: 0 auto;
+  padding: 40px 10px;
+  text-align: center;
+  list-style: none;
+}
+/* line 14, ../scss/sections/_links-section.scss */
+#links-section .buttons-card-box li {
+  display: inline-block;
+  /*width: 320px;*/
+  max-width: 100%;
+  padding: 10px;
+  vertical-align: top;
+}
+/* line 23, ../scss/sections/_links-section.scss */
+#links-section .card {
+  text-align: left;
+  border-radius: 2px;
+  background: #FFFFFF;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.22);
+}
+/* line 31, ../scss/sections/_links-section.scss */
+#links-section .card img {
+  display: block;
+  width: 100%;
+}
+/* line 36, ../scss/sections/_links-section.scss */
+#links-section .card div {
+  padding: 16px 20px;
+  border-bottom: 1px solid #EEEEEE;
+}
+/* line 40, ../scss/sections/_links-section.scss */
+#links-section .card div.card-text {
+  min-height: 180px;
+}
+/* line 44, ../scss/sections/_links-section.scss */
+#links-section .card div h3 {
+  margin: 8px 0;
+  font-size: .9em;
+}
+/* line 49, ../scss/sections/_links-section.scss */
+#links-section .card div p {
+  margin: 8px 0;
+  font-size: .9em;
+}
+/* line 56, ../scss/sections/_links-section.scss */
+#links-section .button {
+  color: #FFC107;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: .8em;
+}
+/* line 63, ../scss/sections/_links-section.scss */
+#links-section .button:hover {
+  opacity: .7;
+}
+/* line 67, ../scss/sections/_links-section.scss */
+#links-section .img-thumbnail {
+  height: 100px;
+  object-fit: scale-down;
+}
+/* line 72, ../scss/sections/_links-section.scss */
+#links-section button {
+  min-width: 120px;
+  top: 50%;
+  left: 50%;
+  padding: 16px 32px;
+  margin: 24px 8px 0 0;
+  background: transparent;
+  text-decoration: none;
+  border: 1px solid #FFC107;
+  outline: none;
+  color: #FFC107;
+  cursor: pointer;
+}
+
+/* line 1, ../scss/sections/_feature-image-section.scss */
+#feature-image {
+  background: url("../../assets/img/photo-1499346146792-b008e446261f.jpeg") 100% no-repeat fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/* line 8, ../scss/sections/_feature-image-section.scss */
+#feature-image .feature-image-content {
+  font-family: 'Quicksand', sans-serif;
+  margin: 80px 0;
+  color: #ffffff;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+/* line 1, ../scss/sections/_directory-section.scss */
+#directory {
+  padding: 75px 0;
+}
+/* line 4, ../scss/sections/_directory-section.scss */
+#directory a {
+  color: #88C425;
+}
+/* line 6, ../scss/sections/_directory-section.scss */
+#directory a :hover {
+  text-decoration: none;
+  color: #519548;
+}
+/* line 12, ../scss/sections/_directory-section.scss */
+#directory i.red {
+  color: #BC0213;
+}
+/* line 17, ../scss/sections/_directory-section.scss */
+#directory h6.description {
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #999;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 5px;
+}
+/* line 26, ../scss/sections/_directory-section.scss */
+#directory .profile {
+  margin-top: 25px;
+}
+/* line 29, ../scss/sections/_directory-section.scss */
+#directory .profile h1 {
+  font-weight: normal;
+  font-size: 20px;
+  margin: 10px 0 0 0;
+}
+/* line 35, ../scss/sections/_directory-section.scss */
+#directory .profile h2 {
+  font-size: 14px;
+  font-weight: lighter;
+  margin-top: 5px;
+}
+/* line 41, ../scss/sections/_directory-section.scss */
+#directory .profile .img-box {
+  opacity: 1;
+  display: block;
+  position: relative;
+}
+/* line 47, ../scss/sections/_directory-section.scss */
+#directory .profile .img-box:after {
+  content: "";
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+/* line 61, ../scss/sections/_directory-section.scss */
+#directory .img-box a {
+  color: #fff;
+}
+/* line 65, ../scss/sections/_directory-section.scss */
+#directory .img-box ul {
+  position: absolute;
+  z-index: 2;
+  bottom: 50px;
+  text-align: center;
+  width: 100%;
+  padding-left: 0px;
+  height: 0px;
+  margin: 0px;
+  opacity: 0;
+}
+/* line 76, ../scss/sections/_directory-section.scss */
+#directory .img-box ul a {
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+/* line 82, ../scss/sections/_directory-section.scss */
+#directory .img-box ul i {
+  font-size: 20px;
+  letter-spacing: 10px;
+}
+/* line 87, ../scss/sections/_directory-section.scss */
+#directory .img-box ul li {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  border: 1px solid #88C425;
+  margin: 2px;
+  padding: 5px;
+  display: inline-block;
+}
+/* line 99, ../scss/sections/_directory-section.scss */
+#directory .img-box:after, #directory .img-box ul, #directory .img-box ul li {
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+/* line 105, ../scss/sections/_directory-section.scss */
+#directory .img-box:hover:after {
+  opacity: 1;
+}
+/* line 109, ../scss/sections/_directory-section.scss */
+#directory .img-box:hover ul {
+  opacity: 1;
+}
+/* line 113, ../scss/sections/_directory-section.scss */
+#directory .img-box a:hover li {
+  border-color: #fff;
+  color: #88C425;
+}
+
+/* line 2, ../scss/sections/_events-section.scss */
+#events-section #events-inner {
+  margin: 100px 0;
+}
+/* line 5, ../scss/sections/_events-section.scss */
+#events-section #events-inner .section-title {
+  margin-bottom: 70px;
+}
+/* line 9, ../scss/sections/_events-section.scss */
+#events-section #events-inner .img-thumbnail {
+  margin-bottom: 40px;
+}
+
+/* line 1, ../scss/sections/_page-template-section.scss */
+#page-template-section {
+  background: linear-gradient(0deg, white, #e6e4e0 83%);
+}
+/* line 4, ../scss/sections/_page-template-section.scss */
+#page-template-section #page-template-inner {
+  background: white;
+  position: relative;
+  margin: 0 auto;
+  padding: 80px 80px 200px;
+  margin-top: -49px;
+}
+/* line 11, ../scss/sections/_page-template-section.scss */
+#page-template-section #page-template-inner p {
+  /* font-family: 'Quicksand', sans-serif; */
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  color: #888888;
+}
+/* line 18, ../scss/sections/_page-template-section.scss */
+#page-template-section #page-template-inner .heading {
+  color: #525252;
+  font-weight: bold;
+}

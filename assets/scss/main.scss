@@ -1,0 +1,22 @@
+/*
+  GLVAR Sass Styles
+  Author: Carlos Baston
+  Version 1.0
+*/
+
+// @import "compass";
+
+// BASE
+@import "base/_base.scss";
+@import "base/_bootstrap-overrides.scss";
+@import "base/_global.scss";
+@import "base/_footer.scss";
+
+// SECTIONS
+@import "sections/_hero-section.scss";
+@import "sections/_links-section.scss";
+@import "sections/_feature-image-section.scss";
+@import "sections/_directory-section.scss";
+@import "sections/_events-section.scss";
+@import "sections/_page-template-section.scss";
+
